@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
 
   def create
   Student.create(params[:students])
-  redirect_to students_show
+  redirect_to students_url
   end
 
 end
