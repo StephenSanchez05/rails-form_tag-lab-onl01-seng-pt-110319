@@ -15,7 +15,5 @@ class StudentsController < ApplicationController
   session[:form_params] = params.inspect
   redirect_to new_student_path
   end
-  private
-
 
 end
